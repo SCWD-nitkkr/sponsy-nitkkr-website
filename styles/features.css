@@ -51,11 +51,11 @@
 }
 .feature-card-icon{
     position: absolute;
-    top:-20%;
+    top:-25%;
     background: #fff;
     width: 6vw;
     border-radius: 16px;
-    box-shadow: 0 10px 20px rgb(138, 138, 138);
+    box-shadow: 0 10px 20px rgb(216, 216, 216);
     height: 6vw;
     display: flex;
     justify-content: center;
@@ -77,6 +77,7 @@
     align-items: center;
     color: #31274f;
     text-align: center;
+    min-height:max-content ;
 }
 .feature-card p{
     width: 14vw;
