@@ -21,6 +21,7 @@
     justify-content: flex-start;
     flex-direction: column;
     height: 10vw;
+    text-align: center;
 }
 
 .features{
@@ -100,4 +101,44 @@ font-weight: 600;
 
 .card2{
     background-color: #ece6f2;
+}
+
+@media only screen and (max-width:500px){
+    .features-row{
+        height: fit-content;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .features-head{
+        height: 30vh;
+        width: 100vw;
+    }
+    .features{
+        flex-direction: column;
+        width: 100vw;
+        height: 220vh;
+    }
+    .feature-card{
+        width: 90vw;
+        height: 40vh;
+    }
+    .feature-card-desc{
+        width: 80vw;
+    }
+    .feature-card p{
+        width: 80vw;
+    }
+    .feature-card-icon{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .card-icon{
+        width: 12vw;
+    }
+    .card-bg{
+        width: 15vw;
+        top:7.5vw;
+        left:10vw
+    }
 }
