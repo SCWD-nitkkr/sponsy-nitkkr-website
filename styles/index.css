@@ -1,5 +1,5 @@
 #body-header{
-    width: 100%;
+    width: 85%;
     height:120px;
     background-color: rgb(247 243 243 / 46%);  
 }
@@ -7,7 +7,7 @@
     list-style: none;
     padding: 25px;
     margin: 0px;
-    text-align: center;
+    text-align: right;
 }
 .horizontal-list li{
     display: inline-block;
@@ -21,7 +21,7 @@
 }
 .nav-menu li a:hover{
     color: rgb(51, 9, 204);
-    border-bottom: 1px solid rgb(51, 9, 204);
+    border-bottom: 2px solid rgb(51, 9, 204);
 }
 button{
     display: inline-block;
@@ -33,5 +33,5 @@ button{
     border-radius: 8px;
 }
 button:hover {
-    background-color: green;
+    background-color: rgb(20, 185, 20);
   }
