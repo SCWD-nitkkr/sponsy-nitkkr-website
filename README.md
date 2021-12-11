@@ -1,1 +1,1 @@
-# nitkkrSponsy.github.io
+# sponsy-nitkkr.vercel.app
