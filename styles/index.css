@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.teams
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: #fefbff;
+    border-top: 1px solid #f8e2ff;
+    border-bottom: 1px solid #f8e2ff;
+    
+}
+.team-para
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #925add;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.team-head
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.team-img
+{
+    margin-top: 70px;
+    /* border: 1px solid blue; */
+}
+.team-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    align-items: center;
+}
+.team-image
+{
+    height: 120px;
+    width: 120px;
+    border: 2px solid #925add;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 20px;
+    -webkit-transition:.4s ease-in-out;
+    -o-transition:.4s ease-in-out;
+    transition:.4s ease-in-out
+
+}
+.team-img6
+{
+    margin-right: 0;
+}
+.team-image:hover, .team-images .active
+{
+    background-color: #925add;
+}
+
+@media only screen and (max-width: 992px)
+{
+    .team-image
+    {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .team-img1
+    {
+        margin-left: 10px;
+    }
+    .team-img6
+    {
+        margin-right : 10px;
+    }
+    .team-head
+    {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .team-head{
+        text-align: center;
+        font-size: 30px;
+    }
+    .team-para{
+        font-size: 17px;
+    }
+
+}
