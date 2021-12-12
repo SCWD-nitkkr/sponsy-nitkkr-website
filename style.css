@@ -1,0 +1,62 @@
+.aboutsection{
+    padding:3rem 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.head1{
+    margin-bottom: 1rem;
+    font-family: lato,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 12px;
+    color: #925add;
+    text-transform: capitalize;
+}
+#right{
+    margin-left: 80px;
+    margin-top:-100px;
+}
+#h2css{
+    font-family: poppins,sans-serif;
+    color: #31274f;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+#desc{
+    margin-top:20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 0;
+    padding: 0;
+    color:rgb(133, 132, 130);
+}
+.readbtn{
+    color: #925add;
+    border:2px solid #925add;
+    border-radius:5px;
+    overflow:hidden;
+    background-color: transparent;
+    padding: 0;
+    width: 170px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: poppins,sans-serif;
+    font-weight:600;
+    transition: 350ms ease-in-out;
+    position:relative;
+    overflow:hidden;
+    cursor: pointer;
+    text-transform: capitalize;
+    z-index: 2;
+}
+.btn1:hover{
+    color:tomato;
+}
