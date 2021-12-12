@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .leftcontainer{
+    width: 60%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .name{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  .position{
+    font-size: 24px;
+    font-family: serif;
+    font-weight: lighter;
+    color: rgb(110, 103, 103);
+  }
+  .comment{
+    font-size: 16px;
+    font-family: serif;
+    font-weight: lighter;
+    color: rgb(178, 172, 207);
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .stars input{
+    display: none;
+  }
+  .stars label{
+    float: right;
+    font-size: 36px;
+    color: lightgrey;
+    margin-left: 8px;
+    text-shadow: 1px 1px #bbb;
+  }
+  .stars label:before{
+    content: '★';
+  }
+  .stars input:checked ~ label{
+    color: gold;
+    text-shadow: 1px 1px #c60;
+  }
+  .stars:not(:checked) > label:hover,
+  .stars:not(:checked) > label:hover ~ label{
+    color: gold;
+  }
+  .stars input:checked > label:hover,
+  .stars input:checked > label:hover ~ label{
+    color: gold;
+    text-shadow: 1px 1px goldenrod;
+  }
+  @media screen and (max-width:970px) {
+    .name{
+      font-size: 16px;
+    }
+    .position{
+      font-size: 12px;
+    }
+    .comment{
+      font-size: 12px;
+    }
+    .stars label{
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width:576px) {
+    .container{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .leftcontainer{
+      width: 75%;
+      text-align: center;
+    }
+    .rightcontainer{
+      width: 50%;
+      margin: 0 auto;
+    }
+    .image{
+      margin: 0 25%;
+      width: 75px;
+      height: 75px;
+    }
+    .stars label{
+      font-size: 20px;
+    }
+    .leftcontainer{
+      align-items: center;
+    }
+  }
