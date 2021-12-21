@@ -1,109 +1,133 @@
 /*---Footer----*/
-body {
-  font-family: sans-serif;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: 400;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
-
-footer {
-  padding: 5% 5%;
-  width: 100%;
-  height: 30%;
-  position: absolute;
-  bottom: 0;
-  color: white;
-  background-color: #262b47;
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
-.row1 {
-  height: 95%;
-  margin-left: 220px;
-  margin-bottom: 50px;
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #262b47;
 }
-.col {
-  float: left;
-  width: 23%;
-  font-weight: 500;
-}
-.logo {
-  width: 216px;
-  margin-bottom: 20px;
-}
-.p1 {
-  color: #c5c5c5;
-  font-size: 16px;
-  line-height: 1.5;
-  width: 80%;
-}
-.socialmedia .fa {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  color: #3d3d3d;
-  background: rgb(253, 253, 253);
-  margin-right: 5px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-h5 {
-  font-size: x-large;
-  margin-top: 10px;
-}
-a {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  color: #c5c5c5;
-  line-height: 2;
-}
-hr {
-  margin: 0;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: content-box;
-  margin-left: 215px;
-  width: 73%;
-  border-color: rgba(255, 255, 255, 0.2);
-  height: 0;
-}
-.copyright {
-  text-align: center !important;
-}
-
-.socialmedia .fa:hover {
-  background: rgb(163, 32, 214);
-  color: white;
-}
-
-a:hover {
-  color: white;
-}
-
-
 .container{
-  display: flex;
-  flex-direction: row;
-  line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
 }
-
-.container:hover{
-    font-weight: bold;
+.sec{
+    margin-right: 19px;
 }
-
-
-.container:hover span{
-  display: block;
+.logo{
+    width: 20%;
 }
-
-span{
-  font-size: 16px;
-  display: none;
+h2{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+p{
+color: #c5c5c5;
+}
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color:#3d3d3d;;
+    background: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    text-decoration: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sci li a:hover{
+    background: rgb(163, 32, 214);
+    color: white;
+}
+.sci li a .fa{
+    color: #3d3d3d;
+    font-size: 20px;
+}
+.ImportantLinks{
+    position: relative;
+    width: 25% ;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+ul li a:hover{
+    color: #fff;
+}
+hr{
+    height: 1px;
+    border: none;
+    background: white;
+    padding-bottom: 0px;
+    width: 88%;
+}
+.copyrightText{
+    width: 100%;
+    background: #262b47;
+    padding: 8px 200px;
+    text-align: center;
+}
+@media(max-width: 991px){
+    footer{
+        padding: 40px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .sec{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.aboutus,.ImportantLinks,.contact{
+        width: 100%;
+    }
+    .copyrightText{
+        padding: 8px 40px;
+    }
 }
 /*---Footer----*/
