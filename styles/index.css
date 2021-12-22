@@ -113,6 +113,9 @@ hr{
     text-align: center;
 }
 @media(max-width: 991px){
+    .logo{
+        width: auto;
+    }
     footer{
         padding: 40px;
     }
