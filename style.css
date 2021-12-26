@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 .aboutsection{
     padding:3rem 0;
 }
@@ -8,29 +11,29 @@
 .head1{
     margin-bottom: 1rem;
     font-family: lato,sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 600;
-    line-height: 27px;
-    margin-bottom: 12px;
+    line-height: 2.7rem;
+    margin-bottom: 1.2rem;
     color: #925add;
     text-transform: capitalize;
 }
 #right{
-    margin-left: 80px;
-    margin-top:-100px;
+    margin-left: 8.0rem;
+    margin-top:-10.0rem;
 }
 #h2css{
     font-family: poppins,sans-serif;
     color: #31274f;
-    font-size: 45px;
+    font-size: 4.5rem;
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 0;
     text-transform: capitalize;
 }
 #desc{
-    margin-top:20px;
-    font-size: 16px;
+    margin-top:2.0rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.8;
     margin-bottom: 0;
@@ -39,15 +42,15 @@
 }
 .readbtn{
     color: #925add;
-    border:2px solid #925add;
-    border-radius:5px;
+    border:.2rem solid #925add;
+    border-radius:.5rem;
     overflow:hidden;
     background-color: transparent;
     padding: 0;
-    width: 170px;
-    height: 50px;
-    margin-top: 50px;
-    font-size: 20px;
+    width: 17.0rem;
+    height: 5.0rem;
+    margin-top: 5.0rem;
+    font-size: 2.0rem;
     font-family: poppins,sans-serif;
     font-weight:600;
     transition: 350ms ease-in-out;
@@ -58,5 +61,16 @@
     z-index: 2;
 }
 .btn1:hover{
-    color:tomato;
+    color:white;
+    background: #925add;
+}
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
 }
