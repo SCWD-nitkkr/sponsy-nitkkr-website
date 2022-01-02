@@ -7,7 +7,7 @@
     font-family: poppins,sans-serif;
 }
 
-.features-row{
+.featuresRow{
     margin: 10vh 0;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     flex-direction: column;
     height: 80vh;
 }
-.features-head {
+.featuresHead {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -32,7 +32,7 @@
     height: 40vh;
     margin: 5vh;
 }
-.feature-card{
+.featureCard{
     width: 16vw;
     position: relative;
     background-color:#e9f2f4;
@@ -46,10 +46,10 @@
     transition: 0.4s ease-in-out;
 }
 
-.feature-card:hover{
+.featureCard:hover{
     transform: translateY(-10px) ;
 }
-.feature-card-icon{
+.featureCardIcon{
     position: absolute;
     top:-25%;
     background: #fff;
@@ -60,17 +60,17 @@
     display: flex;
     justify-content: center;
 }
-.card-icon{
+.cardIcon{
     width: 2.8vw;
     z-index: 1;
 }
-.card-bg{
+.cardBg{
     position: absolute;
     top:25%;
     left: 40%;
     width: 3vw;
 }
-.feature-card-desc{
+.featureCardDesc{
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -79,12 +79,12 @@
     text-align: center;
     min-height:max-content ;
 }
-.feature-card p{
+.featureCard p{
     width: 14vw;
     color: #7d7b8f;
     text-align: center;
 }
-.feature-heading2{
+.featureHeading2{
     
     color: #31274f;
     font-size: 38px;
@@ -93,7 +93,7 @@
     margin-bottom: 0;
     text-transform: capitalize;
 }
-.feature-heading1{
+.featureHeading1{
 
 font-size: 18px;
 line-height: 27px;
@@ -107,12 +107,12 @@ font-weight: 600;
 }
 
 @media only screen and (max-width:720px){
-    .features-row{
+    .featuresRow{
         height: fit-content;
         flex-direction: column;
         width: 100vw;
     }
-    .features-head{
+    .featuresHead{
         height: 30vh;
         width: 100vw;
     }
@@ -121,26 +121,26 @@ font-weight: 600;
         width: 100vw;
         height: 220vh;
     }
-    .feature-card{
+    .featureCard{
         width: 90vw;
         height: 40vh;
     }
-    .feature-card-desc{
+    .featureCardDesc{
         width: 80vw;
     }
-    .feature-card p{
+    .featureCard p{
         width: 80vw;
     }
-    .feature-card-icon{
+    .featureCardIcon{
         width: 30vw;
         height: 30vw;
         top:-20%
     }
 
-    .card-icon{
+    .cardIcon{
         width: 12vw;
     }   
-    .card-bg{
+    .cardBg{
         width: 15vw;
         top:7.5vw;
         left:10vw
