@@ -1,0 +1,151 @@
+/*---Footer----*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #262b47;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* .sec {
+  margin-right: 19px;
+} */
+.logo {
+  width: 30%;
+}
+h2 {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+span {
+  display: none;
+}
+li:hover span {
+  display: initial;
+}
+
+p {
+  color: #c5c5c5;
+}
+.sci {
+  margin-top: 20px;
+  display: flex;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #3d3d3d;
+  background: rgb(253, 253, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sci li a:hover {
+  background: rgb(163, 32, 214);
+  color: white;
+}
+.sci li a .fa {
+  color: #3d3d3d;
+  font-size: 20px;
+}
+.ImportantLinks {
+  position: relative;
+  width: 20%;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+ul li a:hover {
+  color: #fff;
+}
+.copyrightText hr {
+  height: 1px;
+  border: none;
+  background: white;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.copyrightText {
+  width: 100%;
+  background: #262b47;
+  padding: 8px 200px;
+  text-align: center;
+}
+.copyrightText p{
+  padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    width: auto;
+  }
+  footer {
+    padding: 40px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  footer .container .sec.aboutus,
+  .ImportantLinks,
+  .contact {
+    width: 100%;
+  }
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}
+/*---Footer----*/
