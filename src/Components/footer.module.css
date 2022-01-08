@@ -21,7 +21,7 @@ body{
     flex-direction: row;
 }
 .sec{
-    margin-right: 19px;
+    margin-right: 13px;
 }
 .aboutus{
     width: 20%;
@@ -53,8 +53,8 @@ color: #c5c5c5;
 }
 .sci .li .a{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     color:#3d3d3d;;
     background: rgb(253, 253, 253);
     display: flex;
@@ -72,6 +72,8 @@ color: #c5c5c5;
 .sci .li .a .fa{
     color: #3d3d3d;
     font-size: 20px;
+    margin-top: 5px;
+    margin-left: 6px;
 }
 .quickLinks{
     position: relative;
@@ -92,7 +94,7 @@ color: #c5c5c5;
 .span {
     display: none;
   }
-  .li:hover .span {
+.li:hover .span {
     display: initial;
   }
 .hr{
@@ -108,7 +110,7 @@ color: #c5c5c5;
     padding-top: 5px;
     text-align: center;
 }
-@media(max-width: 1375px){
+@media(max-width: 1040px){
 
 .container{
         flex-direction: column;
@@ -120,7 +122,7 @@ color: #c5c5c5;
 .container .sec,.aboutus,.quickLinks,.contact{
         width: 100%;
     }
-    .copyrightText{
+.copyrightText{
         padding-top: 5px;
     }
 }

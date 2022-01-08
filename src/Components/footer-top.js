@@ -7,17 +7,17 @@ const Footertop = () => {
     return(
         <>
                 <div className={footer.container}>
-                    <div className={footer.sec,footer.aboutus}>
-                        <a href="#"><img src={logo} className={footer.logo, footer.a} alt ="logo"/></a>
+                    <div className={`${footer.sec} ${footer.aboutus}`}>
+                        <a href="#" className={footer.a}><img src={logo} className={`${footer.logo} ${footer.a}`} alt ="logo"/></a>
                         <p className={footer.p}>Ladidapp is a design studio founded in London and expanded our
                             services, and offering solutions Worldwide.</p>
-                        <ul className={footer.sci, footer.ul}>
-                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faTwitter} /></a></li>
-                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <ul className={`${footer.sci} ${footer.ul}`}>
+                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faTwitter} className={footer.fa}/></a></li>
+                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faFacebookF} className={footer.fa}/></a></li>
+                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faInstagram} className={footer.fa}/></a></li>
                         </ul>
                     </div>
-                    <div className={footer.sec,footer.quickLinks}>
+                    <div className={`${footer.sec} ${footer.quickLinks}`}>
                         <h2 className={footer.h2}>Important Links</h2>
                         <ul className={footer.ul}>
                             <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>About Us</a></li>
@@ -26,7 +26,7 @@ const Footertop = () => {
                             <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Blog</a></li>
                         </ul>
                     </div>
-                    <div class={footer.sec,footer.quickLinks}>
+                    <div className={`${footer.sec} ${footer.quickLinks}`}>
                         <h2 className={footer.h2}>Learning Lessons</h2>
                         <ul className={footer.ul}>
                             <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Tutorials</a></li>
@@ -35,7 +35,7 @@ const Footertop = () => {
                             <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>F.A.Q</a></li>
                         </ul>
                     </div>
-                    <div className={footer.sec,footer.quickLinks}>
+                    <div className={`${footer.sec} ${footer.quickLinks}`}>
                         <h2 className={footer.h2}>Our Policy</h2>
                         <ul className={footer.ul}>
                             <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Application Security</a></li>
