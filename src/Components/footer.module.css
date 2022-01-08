@@ -26,13 +26,13 @@ body{
 .aboutus{
     width: 20%;
 }
-h2{
+.h2{
     position: relative;
     color: white;
     font-weight: 500;
     margin-bottom: 15px;
 }
-h2:before{
+.h2:before{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -41,17 +41,17 @@ h2:before{
     height: 2px;
     background: #f00;
 }
-p{
+.p{
 color: #c5c5c5;
 }
 .sci{
     margin-top: 20px;
     display: flex;
 }
-.sci li{
+.sci .li{
     list-style: none;
 }
-.sci li a{
+.sci .li .a{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -65,11 +65,11 @@ color: #c5c5c5;
     border-radius: 50%;
     cursor: pointer;
 }
-.sci li a:hover{
+.sci .li .a:hover{
     background: rgb(163, 32, 214);
     color: white;
 }
-.sci li a .fa{
+.sci .li .a .fa{
     color: #3d3d3d;
     font-size: 20px;
 }
@@ -77,25 +77,25 @@ color: #c5c5c5;
     position: relative;
     width: 25% ;
 }
-ul li{
+.ul .li{
     list-style: none;
 }
-ul li a{
+.ul .li .a{
     color: #999;
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
 }
-ul li a:hover{
+.ul .li .a:hover{
     color: #fff;
 }
-span {
+.span {
     display: none;
   }
-  li:hover span {
+  .li:hover .span {
     display: initial;
   }
-hr{
+.hr{
     height: 1px;
     border: none;
     background: white;

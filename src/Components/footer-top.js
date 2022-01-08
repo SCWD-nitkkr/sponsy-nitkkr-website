@@ -8,46 +8,46 @@ const Footertop = () => {
         <>
                 <div className={footer.container}>
                     <div className={footer.sec,footer.aboutus}>
-                        <a href="#"><img src={logo} className={footer.logo} alt ="logo"/></a>
-                        <p>Ladidapp is a design studio founded in London and expanded our
+                        <a href="#"><img src={logo} className={footer.logo, footer.a} alt ="logo"/></a>
+                        <p className={footer.p}>Ladidapp is a design studio founded in London and expanded our
                             services, and offering solutions Worldwide.</p>
-                        <ul className={footer.sci}>
-                            <li><a href="#" className={footer.fa}><FontAwesomeIcon icon={faTwitter} /></a></li>
-                            <li><a href="#" className={footer.fa}><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                            <li><a href="#" className={footer.fa}><FontAwesomeIcon icon={faInstagram} /></a></li>
+                        <ul className={footer.sci, footer.ul}>
+                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faTwitter} /></a></li>
+                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                            <li className={footer.li}><a href="#" className={footer.fa, footer.a}><FontAwesomeIcon icon={faInstagram} /></a></li>
                         </ul>
                     </div>
                     <div className={footer.sec,footer.quickLinks}>
-                        <h2>Important Links</h2>
-                        <ul>
-                            <li><span>-</span><a href="#">About Us</a></li>
-                            <li><span>-</span><a href="#">Compare Services</a></li>
-                            <li><span>-</span><a href="#">Our Mission</a></li>
-                            <li><span>-</span><a href="#">Blog</a></li>
+                        <h2 className={footer.h2}>Important Links</h2>
+                        <ul className={footer.ul}>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>About Us</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Compare Services</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Our Mission</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Blog</a></li>
                         </ul>
                     </div>
                     <div class={footer.sec,footer.quickLinks}>
-                        <h2>Learning Lessons</h2>
-                        <ul>
-                            <li><span>-</span><a href="#">Tutorials</a></li>
-                            <li><span>-</span><a href="#">Compare Services</a></li>
-                            <li><span>-</span><a href="#">How It Works</a></li>
-                            <li><span>-</span><a href="#">F.A.Q</a></li>
+                        <h2 className={footer.h2}>Learning Lessons</h2>
+                        <ul className={footer.ul}>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Tutorials</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Compare Services</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>How It Works</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>F.A.Q</a></li>
                         </ul>
                     </div>
                     <div className={footer.sec,footer.quickLinks}>
-                        <h2>Our Policy</h2>
-                        <ul>
-                            <li><span>-</span><a href="#">Application Security</a></li>
-                            <li><span>-</span><a href="#">Software Principles</a></li>
-                            <li><span>-</span><a href="#">Responsible Supply</a></li>
-                            <li><span>-</span><a href="#">Software Policy</a></li>
+                        <h2 className={footer.h2}>Our Policy</h2>
+                        <ul className={footer.ul}>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Application Security</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Software Principles</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Responsible Supply</a></li>
+                            <li className={footer.li}><span className={footer.span}>-</span><a href="#" className ={footer.a}>Software Policy</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className={footer.copyrightText}>
-                    <hr/>
-                    <p>2021 © Zytheme.All Rights Reserved.</p>
+                    <hr className={footer.hr}/>
+                    <p className={footer.p}>2021 © Zytheme.All Rights Reserved.</p>
                 </div>
         </>
     )
