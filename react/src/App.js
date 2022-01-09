@@ -7,7 +7,7 @@ export default function App() {
         <div class="container">
           <a class="logo navbar-brand" href="index.html">
             <img
-              class="logo logo-light"
+              class="image"
               src="logo-light.png"
               alt="LadidApp Logo"
             />
@@ -19,32 +19,32 @@ export default function App() {
           >
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" data-scroll="scrollTo" href="#hero">
+                <a class="list" data-scroll="scrollTo" href="#hero">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll="scrollTo" href="#features">
+                <a class="list" data-scroll="scrollTo" href="#features">
                   Features
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll="scrollTo" href="#screens">
+                <a class="list" data-scroll="scrollTo" href="#screens">
                   screenshots
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll="scrollTo" href="#pricing">
+                <a class="list" data-scroll="scrollTo" href="#pricing">
                   pricing
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll="scrollTo" href="#reviews">
+                <a class="list" data-scroll="scrollTo" href="#reviews">
                   reviews
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll="scrollTo" href="#news">
+                <a class="list" data-scroll="scrollTo" href="#news">
                   news
                 </a>
               </li>
