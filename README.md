@@ -1,2 +1,0 @@
-# LatestNewsReactSponsy
-Created with CodeSandbox
