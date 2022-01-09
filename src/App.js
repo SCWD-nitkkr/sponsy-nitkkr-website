@@ -1,13 +1,13 @@
-import styles from './App.module.css';
-import Footertop from './Components/footer-top';
+import styles from "./App.module.css";
+import Footertop from "./Components/footer-top";
 
 function App() {
   return (
-    <body> 
+    <body>
       <footer className={styles.footer}>
-        <Footertop/>
+        <Footertop />
       </footer>
-    </body>   
+    </body>
   );
 }
 
