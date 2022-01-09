@@ -1,8 +1,9 @@
 import React from 'react'
 import footer from './footer.module.css';
 import logo from './logo-footer.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
+import twitter from './twitter.svg';
+import facebook from './facebook.svg';
+import instagram from './instagram.svg';
 const Footertop = () => {
     return(
         <>
@@ -12,9 +13,9 @@ const Footertop = () => {
                         <p className={footer.p}>Ladidapp is a design studio founded in London and expanded our
                             services, and offering solutions Worldwide.</p>
                         <ul className={`${footer.sci} ${footer.ul}`}>
-                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faTwitter} className={footer.fa}/></a></li>
-                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faFacebookF} className={footer.fa}/></a></li>
-                            <li className={footer.li}><a href="#" className={footer.a}><FontAwesomeIcon icon={faInstagram} className={footer.fa}/></a></li>
+                            <li className={footer.li}><a href="#" className={footer.a}><img src={twitter} alt='Twitter' className={footer.fa}/></a></li>
+                            <li className={footer.li}><a href="#" className={footer.a}>< img src={facebook} alt='Facebook'className={footer.fa}/></a></li>
+                            <li className={footer.li}><a href="#" className={footer.a}>< img src={instagram} alt='Instagram'className={footer.fa}/></a></li>
                         </ul>
                     </div>
                     <div className={`${footer.sec} ${footer.quickLinks}`}>
