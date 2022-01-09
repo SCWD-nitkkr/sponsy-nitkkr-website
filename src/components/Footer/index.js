@@ -7,6 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
 const Footertop = () => {
   return (
     <>
