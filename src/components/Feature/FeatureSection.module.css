@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+}
+
+.featuresRow {
+  margin: 10vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 80vh;
+}
+.featuresHead {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 10vw;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75vw;
+  height: 40vh;
+  margin: 5vh;
+}
+.featureCard {
+  width: 16vw;
+  position: relative;
+  background-color: #e9f2f4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.featureCard:hover {
+  transform: translateY(-10px);
+}
+.featureCardIcon {
+  position: absolute;
+  top: -25%;
+  background: #fff;
+  width: 6vw;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgb(216, 216, 216);
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+}
+.cardIcon {
+  width: 2.8vw;
+  z-index: 1;
+}
+.cardBg {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 3vw;
+}
+.featureCardDesc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #31274f;
+  text-align: center;
+  min-height: max-content;
+}
+.featureCard p {
+  width: 14vw;
+  color: #7d7b8f;
+  text-align: center;
+}
+.featureHeading2 {
+  color: #31274f;
+  font-size: 38px;
+  font-weight: 1000;
+  line-height: 1.4;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.featureHeading1 {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 12px;
+  color: #925add;
+  font-weight: 600;
+}
+
+.card2 {
+  background-color: #ece6f2;
+}
+
+@media only screen and (max-width: 720px) {
+  .featuresRow {
+    height: fit-content;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .featuresHead {
+    height: 30vh;
+    width: 100vw;
+  }
+  .features {
+    flex-direction: column;
+    width: 100vw;
+    height: 220vh;
+  }
+  .featureCard {
+    width: 90vw;
+    height: 40vh;
+  }
+  .featureCardDesc {
+    width: 80vw;
+  }
+  .featureCard p {
+    width: 80vw;
+  }
+  .featureCardIcon {
+    width: 30vw;
+    height: 30vw;
+    top: -20%;
+  }
+
+  .cardIcon {
+    width: 12vw;
+  }
+  .cardBg {
+    width: 15vw;
+    top: 7.5vw;
+    left: 10vw;
+  }
+}
