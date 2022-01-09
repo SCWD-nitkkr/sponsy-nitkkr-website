@@ -1,14 +1,11 @@
 import React from "react";
 import footer from "./footer.module.css";
 import logo from "./logo-footer.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import twitter from './twitter.svg';
+import facebook from './facebook.svg';
+import instagram from './instagram.svg';
 
-const Footertop = () => {
+const Footer = () => {
   return (
     <>
       <div className={footer.container}>
@@ -27,17 +24,17 @@ const Footertop = () => {
           <ul className={`${footer.sci} ${footer.ul}`}>
             <li className={footer.li}>
               <a href="#" className={footer.a}>
-                <FontAwesomeIcon icon={faTwitter} className={footer.fa} />
+                <img src={twitter} alt='Twitter' className={footer.fa}/>
               </a>
             </li>
             <li className={footer.li}>
               <a href="#" className={footer.a}>
-                <FontAwesomeIcon icon={faFacebookF} className={footer.fa} />
+                < img src={facebook} alt='Facebook'className={footer.fa}/>
               </a>
             </li>
             <li className={footer.li}>
               <a href="#" className={footer.a}>
-                <FontAwesomeIcon icon={faInstagram} className={footer.fa} />
+                < img src={instagram} alt='Instagram'className={footer.fa}/>
               </a>
             </li>
           </ul>
@@ -137,4 +134,4 @@ const Footertop = () => {
     </>
   );
 };
-export default Footertop;
+export default Footer;
