@@ -1,6 +1,4 @@
-body {
-    background-color: rgb(247, 245, 245);
-}
+
 .feedback {
     margin: 5% 12%;
     border-radius: 4%;
@@ -37,8 +35,7 @@ body {
     display: inline-block;
    
 }
-
-img {
+.reviewerImage {
     border-radius: 15%;
     width: 600px;
 }
@@ -73,14 +70,14 @@ img {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-h1 {
+.reviewer {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 5px;
 }
 
-h2 {
+.reviewerProfile {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -107,7 +104,7 @@ h2 {
     .slide{
         flex-direction: column;
     }
-    img{
+    .reviewerImage{
         width: 300px;
     }
 }

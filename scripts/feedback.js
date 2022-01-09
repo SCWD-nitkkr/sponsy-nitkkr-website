@@ -30,8 +30,8 @@ export default function Feedback()
       <div className={styles.slide}>
         <a className={styles.prev} onClick="plusSlides(-1)">&#10094;</a>
         <div className={styles.content}>
-          <h1>Leila Domniuc</h1>
-          <h2>Head of marketing,Facebook</h2>
+          <h1 className={styles.reviewer}>Leila Domniuc</h1>
+          <h2 className={styles.reviewerProfile} >Head of marketing,Facebook</h2>
           <p className={styles.rating}>⭐⭐⭐⭐</p>
           <p className={styles.review}>
             My project was a simple task,but the persistence of ladidapp web
@@ -40,7 +40,7 @@ export default function Feedback()
           </p>
         </div>
         <div className={styles.forImage}>
-          <img src="images/person.png" />
+          <img src="images/person.png"  className={styles.reviewerImage} />
         </div>
         <a className={styles.next} onClick={plusSlides(1)}>&#10095;</a>
       </div>
@@ -48,8 +48,8 @@ export default function Feedback()
       <div className={styles.slide}>
         <a className={styles.prev} onClick="plusSlides(-1)">&#10094;</a>
         <div className={styles.content}>
-          <h1>Leila Domniuc</h1>
-          <h2>Head of marketing,Facebook</h2>
+          <h1 className={styles.reviewer}>Leila Domniuc</h1>
+          <h2 className={styles.reviewerProfile} >Head of marketing,Facebook</h2>
           <p className={styles.rating}>⭐⭐⭐⭐</p>
           <p className={styles.review}>
             My project was a simple task,but the persistence of ladidapp web
@@ -58,16 +58,16 @@ export default function Feedback()
           </p>
         </div>
         <div className={styles.forImage}>
-          <img src="images/person.png" />
+          <img src="images/person.png"  className={styles.reviewerImage}/>
         </div>
         <a className={styles.next} onClick={plusSlides(1)}>&#10095;</a>
       </div>
-
+      
       <div className={styles.slide}>
         <a className={styles.prev} onClick="plusSlides(-1)">&#10094;</a>
         <div className={styles.content}>
-          <h1>Leila Domniuc</h1>
-          <h2>Head of marketing,Facebook</h2>
+          <h1 className={styles.reviewer}>Leila Domniuc</h1>
+          <h2 className={styles.reviewerProfile} >Head of marketing,Facebook</h2>
           <p className={styles.rating}>⭐⭐⭐⭐</p>
           <p className={styles.review}>
             My project was a simple task,but the persistence of ladidapp web
@@ -76,7 +76,7 @@ export default function Feedback()
           </p>
         </div>
         <div className={styles.forImage}>
-          <img src="images/person.png" />
+          <img src="images/person.png" className={styles.reviewerImage} />
         </div>
         <a className={styles.next} onClick={plusSlides(1)}>&#10095;</a>
       </div>
