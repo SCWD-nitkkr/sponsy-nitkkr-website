@@ -26,7 +26,7 @@ export default function Feedback()
     
   }
 
-  <div className={styles.feedback+' '+styles.slider}>
+  return <div className={styles.feedback+' '+styles.slider}>
       <div className={styles.slide}>
         <a className={styles.prev} onClick="plusSlides(-1)">&#10094;</a>
         <div className={styles.content}>
