@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+}
+
+#update {
+  width: 8rem;
+  height: 2.5rem;
+  background: #a459fa;
+  border-radius: 5rem 5rem 5rem 5rem;
+  color: beige;
+  font-family: lato, sans-serif;
+  font-size: 2.4rem;
+  padding: 1rem 2rem 1rem 2.5rem;
+  display: inline-block;
+}
+#appupdate {
+  display: inline;
+  color: #919294;
+  font-size: 2rem;
+  font-family: lato, sans-serif;
+  padding-left: 0.5rem;
+  padding-bottom: 3rem;
+  font-weight: bolder;
+  margin-bottom: 0.3rem;
+}
+
+#header {
+  width: 70rem;
+  height: 5rem;
+  border-radius: 5rem 5rem 5rem 5rem;
+  margin-left: 10rem;
+  margin-top: 18rem;
+  background-color: #f6f0fd;
+}
+
+#right {
+  margin-left: -40rem;
+  margin-top: 35rem;
+}
+#wr {
+  color: #31274f;
+  font-family: poppins, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 70;
+  line-height: 6.5rem;
+  text-transform: capitalize;
+}
+#wr1 {
+  color: #919294;
+  font-family: lato, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 40;
+  line-height: 2.8rem;
+}
+#down {
+  width: 20rem;
+  height: 8rem;
+  background: #7714e9;
+  margin-left: -60rem;
+  margin-top: 20rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+#down1 {
+  font-family: poppins, sans-serif;
+  font-weight: 70;
+  margin-left: 2rem;
+  margin-top: -1rem;
+  font-size: x-large;
+}
+#img {
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+#btn {
+  margin-top: 50rem;
+  margin-left: -30rem;
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
