@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+}
+.aboutsection {
+  padding: 3rem 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.head1 {
+  margin-bottom: 1rem;
+  font-family: lato, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  margin-bottom: 1.2rem;
+  color: #925add;
+  text-transform: capitalize;
+}
+#right {
+  margin-left: 8rem;
+  margin-top: -10rem;
+}
+#h2css {
+  font-family: poppins, sans-serif;
+  color: #31274f;
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+#desc {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 0;
+  padding: 0;
+  color: rgb(133, 132, 130);
+}
+.readbtn {
+  color: #925add;
+  border: 0.2rem solid #925add;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 0;
+  width: 17rem;
+  height: 5rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  transition: 350ms ease-in-out;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.btn1:hover {
+  color: white;
+  background: #925add;
+}
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
